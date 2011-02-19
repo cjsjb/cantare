@@ -41,34 +41,53 @@
 		f 8 f f f f g 4 e 8 ~  |
 		e 8 d 4 c a, 8 c d ~  |
 		d 8 c 2. r8  |
-		r1 |
+
+		%% estribillo
+		r2 r8 c' c' a  |
+		c' 4. r8 r e' e' d' ~ (  |
+		d' 8 e' 4 ) r8 r4 g 8 g  |
+		e' 8 e' e' g' 4 e' 8 d' c' ~  |
+		c' 4. r8 r c' c' a  |
+		c' 4. r8 r e' e' d' ~ (  |
+		d' 8 c' 4 ) r8 r4 g 8 g  |
+		f' 8 f' f' f' ~ f' f' g' e' ~  |
+		e' 8 d' 4 d' c' 8 c' a  |
+		c' 4. r8 r e' e' d' ~ (  |
+		d' 8 e' 4 ) r8 r4 g 8 g  |
+		e' 8 e' e' g' 4 e' 8 d' c' ~  |
+		c' 4. r8 r c' c' a  |
+		c' 4. r8 r e' e' d' ~ (  |
+		d' 8 c' 4 ) r8 r4 g 8 g  |
+		f' 4. f' 4 g' e' 8 ~  |
+		e' 8 d' 4 c' d' c' 8 ~  |
+		c' 1  |
         } % Voice
 	\lyricsto "juanbosco" \new Lyrics \lyricmode {
 		% estrofa 1
-		"Voy" "a" "vi" -- "vir" "u" -- "na" "vi" -- "da en" "Je" -- "sús"
-		"y" "la" "quie" -- "ro" "com" -- "par" -- "tir."
-		"Dios" "me ha" "lla" -- "ma" -- "do," "Él" "es" "mi" "pas" -- "tor,"
-		"Je" -- "sús" "dio" "su" "vi" -- "da" "por" "mí"
-		"y" "por" "ti..."
-		"Je" -- "sús" "es" "el" "ca" -- "mi" -- "no," "la" "ver" -- "dad" "y" "la" "vi" -- "da."
+		Voy a vi -- vir u -- na vi -- "da en" Je -- sús
+		y la quie -- ro com -- par -- tir.
+		Dios "me ha" lla -- ma -- do, Él es mi pas -- tor,
+		Je -- sús dio su vi -- da por mí
+		y por ti...
+		Je -- sús es el ca -- mi -- no, la ver -- dad y la vi -- da.
 
 		% estrofa 2
-		"Hi" -- "jos" "de" "Dios" "so" -- "mos" "to" -- "dos" "por" "i" -- "gual,"
-		"te" -- "ne" -- "mos" "de" -- "re" -- "cho a" "su a" -- "mor."
-		"En" "to" -- "do" "mo" -- "men" -- "to" "con" -- "ti" -- "go Él" "es" -- "tá,"
-		"Él" "es" "nues" -- "tra" "sal" -- "va" -- "ción," "Él" "es" "tu a" -- "mi" -- "go."
-		"Je" -- "sús" "es" "el" "ca" -- "mi" -- "no," "la" "ver" -- "dad" "y" "la" "vi" -- "da."
+		Hi -- jos de Dios so -- mos to -- dos por i -- gual,
+		te -- ne -- mos de -- re -- "cho a" "su a" -- mor.
+		En to -- do mo -- men -- to con -- ti -- "go Él" es -- tá,
+		Él es nues -- tra sal -- va -- ción, Él es "tu a" -- mi -- go.
+		Je -- sús es el ca -- mi -- no, la ver -- dad y la vi -- da.
 
 		% estribillo
-		Por eso yo cantaré,
-		cantaré con todo el corazón.
-		Por eso yo viviré,
-		porque tengo a Jesús en mi corazón.
+		Por e -- so yo can -- ta -- ré,
+		can -- ta -- ré con to -- "do el" co -- ra -- zón.
+		Por e -- so yo vi -- vi -- ré,
+		por -- que ten -- "go a" Je -- sús en mi co -- ra -- zón.
 
-		Por eso tú cantarás,
-		cantarás con todo el corazón.
-		Por eso tú vivirás
-		si confías tu vida en Jesús.
+		Por e -- so tú can -- ta -- rás,
+		can -- ta -- rás con to -- "do el" co- ra -- zón.
+		Por e -- so tú vi -- vi -- rás
+		si con -- fí -- as tu vi -- da en Je -- sús.
 
 		% estrofa 3
 		Dale en tu día un tiempo a Jesús
