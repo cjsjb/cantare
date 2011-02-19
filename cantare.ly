@@ -20,18 +20,23 @@ globalTempo = {
 	\tempo 4 = 140  \skip 1*133
 }
 \score {
-	\new StaffGroup << % common
+	<<
 		% force offset of colliding notes in chords:
 		\override Score.NoteColumn #'force-hshift = #1.0
 
 		\include "cantare-acordes.inc"
-		\include "cantare-juanbosco.inc"
-		%\include "cantare-tenor.inc"
 
+		\new StaffGroup << % coro
+			\include "cantare-juanbosco.inc"
+			\include "cantare-soprano.inc"
+		>>
+
+		%\include "cantare-bajo.inc"
 	>> % notes
+
 	\layout {
 		\context {
-			%\RemoveEmptyStaffContext
+			\RemoveEmptyStaffContext
 		}
 	}
 } % score
