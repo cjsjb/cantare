@@ -22,10 +22,10 @@
 		g' 2 r4 r8 bes' ~  |
 		bes' 8 c'' c'' c'' 2 r8  |
 		R1*2  |
-		r2 r4 r8 c''  |
-		c'' 8 c'' c'' c'' c'' c'' 4 c'' 8 ~  |
-		c'' 8 c'' 4 c'' c'' 8 c'' g' ~  |
-		g' 8 g' 2. r8  |
+		r2 r4 r8 c'  |
+		c' 8 c' c' c' c' c' 4 c' 8 ~  |
+		c' 8 c' 4 c' c' 8 c' g ~  |
+		g 8 g 2. r8  |
 
 		%% estribillo
 		R1
