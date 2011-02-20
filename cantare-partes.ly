@@ -565,35 +565,15 @@ globalTempo = {
         } % Voice
     >> % Staff ends
 
-    \context Staff = "track 3, barítono" << 
-        \set Staff.instrumentName = \markup { \column { "barítono " } }
-        \set Staff.midiInstrument = ""
-        \set Score.skipBars = ##t
-        \set Staff.printKeyCancellation = ##f
-        \new Voice \global
-        \new Voice \globalTempo
-
-        \context Voice = "voice 27" {
-            \override Voice.TextScript #'padding = #2.0
-            \override MultiMeasureRest #'expand-limit = 1
-
-            \skip 1 
-            \clef "treble"
-            R1*24  |
-            r4 r8 e'' 4 r8 r4  |
-            R1*9  |
-        } % Voice
-    >> % Staff ends
-
-    \context Staff = "track 8" << 
-        \set Staff.instrumentName = \markup { \column { " " } }
+    \context Staff = "track 8, juanbosco" << 
+        \set Staff.instrumentName = \markup { \column { "juanbosco " } }
         \set Staff.midiInstrument = "Violin"
         \set Score.skipBars = ##t
         \set Staff.printKeyCancellation = ##f
         \new Voice \global
         \new Voice \globalTempo
 
-        \context Voice = "voice 28" {
+        \context Voice = "voice 27" {
             \override Voice.TextScript #'padding = #2.0
             \override MultiMeasureRest #'expand-limit = 1
 
@@ -609,8 +589,8 @@ globalTempo = {
 %% 15
             d' 8 e' d' c' 2 f 8  |
             a 8 a a a 4 g 8 f 4  |
-            g 2 e 8 g 4 c 8  |
-            d 2. r8 d  |
+            g 2 e 8 g 4 c 8 _~  |
+            c 8 d 2 _~ d 8 r d  |
             f 8 f f f f g 4 e 8 _~  |
 %% 20
             e 8 d 4 c a, 8 c d _~  |
@@ -631,7 +611,136 @@ globalTempo = {
             e 8 d 4 c a, 8 c d _~  |
             d 8 c 2. r8  |
 %% 35
-            R1  |
+            r2 r8 c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 e' 4 ) r8 r4 g 8 g  |
+            e' 8 e' e' g' 4 e' 8 d' c' _~  |
+            c' 4. r8 r c' c' a  |
+%% 40
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 c' 4 ) r8 r4 g 8 g  |
+            f' 8 f' f' f' _~ f' f' g' e' _~  |
+            e' 8 d' 4 d' c' 8 c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+%% 45
+            d' 8 e' 4 ) r8 r4 g 8 g  |
+            e' 8 e' e' g' 4 e' 8 d' c' _~  |
+            c' 4. r8 r c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 c' 4 ) r8 r4 g 8 g  |
+%% 50
+            f' 4. f' 4 g' e' 8 _~  |
+            e' 8 d' 4 c' d' c' 8 _~  |
+            c' 1  |
+            R1*3  |
+            c' 8 c' c' c' 4 c' 8 c' d' _~  |
+            d' 8 c' c' c' 2 r8  |
+            a 8 a a a 4 c' 8 c' e' _~  |
+            e' 2. _~ e' 8 r  |
+%% 60
+            c' 8 c' c' c' c' c' 4 d' 8 _~  |
+            d' 8 e' d' c' 4. f 8 f  |
+            a 8 a a a a g f g _~  |
+            g 2 e 8 e g g  |
+            d 2. r8 d  |
+%% 65
+            f 8 f f f f g 4 e 8 _~  |
+            e 8 d 4 c a, 8 c d _~  |
+            d 8 c 2. r8  |
+            r2 r8 c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+%% 70
+            d' 8 e' 4 ) r8 r4 g 8 g  |
+            e' 8 e' e' g' 4 e' 8 d' c' _~  |
+            c' 4. r8 r c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 c' 4 ) r8 r4 g 8 g  |
+%% 75
+            f' 8 f' f' f' _~ f' f' g' e' _~  |
+            e' 8 d' 4 d' c' 8 c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 e' 4 ) r8 r4 g 8 g  |
+            e' 8 e' e' g' 4 e' 8 d' c' _~  |
+%% 80
+            c' 4. r8 r c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 c' 4 ) r8 r4 g 8 g  |
+            f' 4. f' 4 g' e' 8 _~  |
+            e' 8 d' 4 c' d' c' 8 _~  |
+%% 85
+            c' 1  |
+            R1*3  |
+            r4 c' 8 c' c' ees' _~ ees' 4  |
+%% 90
+            ees' 8 bes bes bes _~ bes 4. r8  |
+            aes 4 aes 8 aes 4 aes 8 aes c' _~  |
+            c' 2. r4  |
+            f' 4 f' 8 f' 4 ees' 8 ees' ees' _~  |
+            ees' 8 cis' cis' cis' 2 d' 8  |
+%% 95
+            d' 4 d' d' d'  |
+            d' 2 r8 c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 e' 4 ) r8 r4 g 8 g  |
+            e' 8 e' e' g' 4 e' 8 d' c' _~  |
+%% 100
+            c' 4. r8 r c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 c' 4 ) r8 r4 g 8 g  |
+            f' 8 f' f' f' _~ f' f' g' e' _~  |
+            e' 8 d' 4 d' c' 8 c' a  |
+%% 105
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+            d' 8 e' 4 ) r8 r4 g 8 g  |
+            e' 8 e' e' g' 4 e' 8 d' c' _~  |
+            c' 4. r8 r c' c' a  |
+            c' 4. r8 r e' e' d' ^( _~ 
+            % warning: overlong bar truncated here |
+%% 110
+            d' 8 c' 4 ) r8 r4 g 8 g  |
+            f' 4. f' 4 g' e' 8 _~  |
+            e' 8 d' 2 r8 g g  |
+            r2 r  |
+            r2 r8 d' d' b  |
+%% 115
+            \key d \major
+            d' 4. r8 r fis' fis' e' ^( _~ 
+            % warning: overlong bar truncated here |
+            e' 8 fis' 4 ) r8 r4 a 8 a  |
+            fis' 8 fis' fis' a' 4 fis' 8 e' d' _~  |
+            d' 4. r8 r d' d' b  |
+            d' 4. r8 r fis' fis' e' ^( _~ 
+            % warning: overlong bar truncated here |
+%% 120
+            e' 8 d' 4 ) r8 r4 a 8 a  |
+            g' 8 g' g' g' _~ g' g' a' fis' _~  |
+            fis' 8 e' 4 e' d' 8 d' b  |
+            d' 4. r8 r fis' fis' e' ^( _~ 
+            % warning: overlong bar truncated here |
+            e' 8 fis' 4 ) r8 r4 a 8 a  |
+%% 125
+            fis' 8 fis' fis' a' 4 fis' 8 e' d' _~  |
+            d' 4. r8 r d' d' b  |
+            d' 4. r8 r fis' fis' e' ^( _~ 
+            % warning: overlong bar truncated here |
+            e' 8 d' 4 ) r8 r4 a 8 a  |
+            g' 4. g' 4 a' fis' 8 _~  |
+%% 130
+            fis' 8 e' 2 r8 a a  |
+            g' 4. g' 4 a' fis' 8 _~  |
+            fis' 8 e' 4 d' e' d' 8 _~  |
+            d' 1  |
         } % Voice
     >> % Staff ends
 
@@ -643,7 +752,7 @@ globalTempo = {
         \new Voice \global
         \new Voice \globalTempo
 
-        \context Voice = "voice 29" {
+        \context Voice = "voice 28" {
             \override Voice.TextScript #'padding = #2.0
             \override MultiMeasureRest #'expand-limit = 1
 
