@@ -178,7 +178,7 @@
 		por -- que ten -- "go a" Je -- sús en mi co -- ra -- zón.
 
 		Por e -- so tú can -- ta -- rás,
-		can -- ta -- rás con to -- "do el" co- ra -- zón.
+		can -- ta -- rás con to -- "do el" co -- ra -- zón.
 		Por e -- so tú vi -- vi -- rás
 		si con -- fí -- as tu vi -- da en Je -- sús.
 
@@ -196,7 +196,7 @@
 		por -- que ten -- "go a" Je -- sús en mi co -- ra -- zón.
 
 		Por e -- so tú can -- ta -- rás,
-		can -- ta -- rás con to -- "do el" co- ra -- zón.
+		can -- ta -- rás con to -- "do el" co -- ra -- zón.
 		Por e -- so tú vi -- vi -- rás
 		si con -- fí -- as tu vi -- da en Je -- sús.
 
@@ -213,7 +213,7 @@
 		por -- que ten -- "go a" Je -- sús en mi co -- ra -- zón.
 
 		Por e -- so tú can -- ta -- rás,
-		can -- ta -- rás con to -- "do el" co- ra -- zón.
+		can -- ta -- rás con to -- "do el" co -- ra -- zón.
 		Por e -- so tú vi -- vi -- rás
 		si con -- fí -- as tu vi -- da,
 		si con -- fí -- as tu vi -- "da..."
@@ -225,7 +225,7 @@
 		por -- que ten -- "go a" Je -- sús en mi co -- ra -- zón.
 
 		Por e -- so tú can -- ta -- rás,
-		can -- ta -- rás con to -- "do el" co- ra -- zón.
+		can -- ta -- rás con to -- "do el" co -- ra -- zón.
 		Por e -- so tú vi -- vi -- rás
 		si con -- fí -- as tu vi -- da,
 		si con -- fí -- as tu vi -- da en Je -- sús.
